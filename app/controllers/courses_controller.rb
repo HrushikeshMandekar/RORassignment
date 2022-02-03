@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# This shiny device polishes bared foos
 class CoursesController < ApplicationController
   def create
     course = Course.new(course_params)
